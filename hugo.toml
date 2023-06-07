@@ -1,0 +1,26 @@
+baseURL = 'https://rtj.dev/'
+languageCode = 'en-us'
+title = 'rtj.dev'
+
+theme = 'PaperMod'
+
+[params]
+  foo = 'bar'
+
+
+  # home-info mode
+  [params.homeInfoParams]
+    Title = "Hi there \U0001F44B"
+    Content = 'Welcome to my blog'
+
+  [[params.socialIcons]]
+  name = 'twitter'
+  url = 'https://twitter.com/rolandthomasjr'
+
+  [[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/rolandtjr'
+
+  [[params.socialIcons]]
+  name = 'credly'
+  url = 'https://credly.com/users/roland-thomas-jr'
