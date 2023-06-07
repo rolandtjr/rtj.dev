@@ -1,16 +1,11 @@
 baseURL = 'https://rtj.dev/'
 languageCode = 'en-us'
 title = 'rtj.dev'
-
+paginate = 10
 theme = 'PaperMod'
 
-[params]
-  foo = 'bar'
-
-
-  # home-info mode
   [params.homeInfoParams]
-    Title = "Hi there \U0001F44B"
+    Title = "Roland Thomas Jr \U0001F525"
     Content = 'Welcome to my blog'
 
   [[params.socialIcons]]
@@ -24,3 +19,30 @@ theme = 'PaperMod'
   [[params.socialIcons]]
   name = 'credly'
   url = 'https://credly.com/users/roland-thomas-jr'
+
+[languages.en]
+languageName = 'English'
+weight = 1
+
+  [languages.en.taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[[languages.en.menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 1
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
