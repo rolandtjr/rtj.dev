@@ -4,21 +4,53 @@ title = 'rtj.dev'
 paginate = 10
 theme = 'PaperMod'
 
+enableEmoji = true
+
+[params]
+author = 'Roland Thomas Jr'
+defaultTheme = 'auto'
+ShowShareButtons = true
+ShowCodeCopyButtons = true
+ShowPostNavLinks = true
+ShowRssButtonInSectionTermList = true
+comments = true
+ShowReadingTime = true
   [params.homeInfoParams]
     Title = "Roland Thomas Jr \U0001F525"
     Content = 'Welcome to my blog'
 
   [[params.socialIcons]]
-  name = 'twitter'
-  url = 'https://twitter.com/rolandthomasjr'
+  name = 'mastodon'
+  url = 'https://mastodon.social/@rolandtjr'
 
   [[params.socialIcons]]
   name = 'github'
   url = 'https://github.com/rolandtjr'
 
   [[params.socialIcons]]
+  name = 'codewars'
+  url = 'https://www.codewars.com/users/rolandtjr'
+
+  [[params.socialIcons]]
+  name = 'hackerrank'
+  url = 'https://www.hackerrank.com/roland26'
+
+  [[params.socialIcons]]
   name = 'credly'
   url = 'https://credly.com/users/roland-thomas-jr'
+
+  [[params.socialIcons]]
+  name = 'goodreads'
+  url = 'https://www.goodreads.com/rolandthomasjr'
+
+  [[params.socialIcons]]
+  name = 'email'
+  url = 'mailto:roland@rtj.dev'
+
+  [[params.socialIcons]]
+  name = 'Rss'
+  url = 'index.xml'
+
 
 [languages.en]
 languageName = 'English'
@@ -42,7 +74,12 @@ weight = 10
 [[languages.en.menu.main]]
 name = "Tags"
 url = "tags/"
-weight = 1
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Gitea"
+url = "https://git.rtj.dev"
+weight = 15
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]

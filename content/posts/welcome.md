@@ -10,4 +10,8 @@ ShowBreadCrumbs: false
 
 Welcome to rtj.dev!
 
+```python
+print('Hello, World!')
+```
+
 ---
