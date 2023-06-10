@@ -23,12 +23,10 @@ jobs:
       - name: Pass login information
         env: 
           DOCKER_AUTH_CONFIG: ${{ secrets.DOCKER_AUTH_CONFIG }}
-          DAEMON_JSON: ${{ secrets.DAEMON_JSON }}
         run: |
           docker info
           mkdir -p $HOME/.docker
           echo "$DOCKER_AUTH_CONFIG" | base64 -d > $HOME/.docker/config.json
-          echo "$DAEMON_JSON" | base64 -d > $HOME/.docker/config.json
       - name: Build Docker Image
         env:
           GITEA_WORKSPACE: ${{ gitea.workspace }}
