@@ -9,7 +9,7 @@ jobs:
       - name: Setup node.js
         shell: sh
         run: |
-          apk --update add nodejs npm
+          apk --update add nodejs npm git
       - name: Check out repository code
         uses: actions/checkout@v3
       - run: echo "💡 The ${{ gitea.repository }} repository has been cloned to the runner."
