@@ -5,16 +5,17 @@ on: [push]
 jobs:
   Build-and-Deploy:
     runs-on: docker
+    defaults:
+      run:
+        shell: sh
     steps:
       - name: Setup node.js
-        shell: sh
         run: |
           apk --update add nodejs npm git
       - name: Check out repository code
         uses: actions/checkout@v3
       - run: echo "💡 The ${{ gitea.repository }} repository has been cloned to the runner."
       - name: Pass login information
-        shell: sh
         env: 
           DOCKER_AUTH_CONFIG: ${{ secrets.DOCKER_AUTH_CONFIG }}
         run: |
