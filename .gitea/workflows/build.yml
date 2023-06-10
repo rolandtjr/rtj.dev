@@ -14,7 +14,10 @@ jobs:
           apk --update add nodejs npm git
       - name: Check out repository code
         uses: actions/checkout@v3
-      - env:
+        with:
+          submodules: recursive
+      - name: Print repository name
+        env:
           GITEA_REPO: ${{ gitea.repository }}
         run: echo "💡 The "$GITEA_REPO:" repository has been cloned to the runner."
       - name: Pass login information
@@ -30,4 +33,4 @@ jobs:
         run: |
           cd "$GITEA_WORKSPACE"
           docker build -f Dockerfile -t rtj.dev:0.0.1 .
-          docker push http://192.168.1.100:3000/roland/rtj.dev:0.0.1
+          docker push 192.168.1.100:3000/roland/rtj.dev:0.0.1
