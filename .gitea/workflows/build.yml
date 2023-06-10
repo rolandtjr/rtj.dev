@@ -7,7 +7,7 @@ jobs:
     runs-on: docker
     steps:
       - name: Setup node.js
-        uses: actions/setup-node@v3
+        run: apk --update add nodejs npm
       - run: npm ci
       - run: npm test
       - name: Check out repository code
