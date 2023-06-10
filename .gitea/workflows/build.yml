@@ -30,4 +30,4 @@ jobs:
         run: |
           cd "$GITEA_WORKSPACE"
           docker build -f Dockerfile -t rtj.dev:0.0.1 .
-          docker push rtj.dev:0.0.1
+          docker push http://192.168.1.100:3000/roland/rtj.dev:0.0.1
