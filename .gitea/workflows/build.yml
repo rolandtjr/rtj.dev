@@ -6,6 +6,10 @@ jobs:
   Build-and-Deploy:
     runs-on: docker
     steps:
+      - name: Setup node.js
+        uses: actions/setup-node@v3
+      - run: npm ci
+      - run: npm test
       - name: Check out repository code
         uses: actions/checkout@v3
       - run: echo "💡 The ${{ gitea.repository }} repository has been cloned to the runner."
