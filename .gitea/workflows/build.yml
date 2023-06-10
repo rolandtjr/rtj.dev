@@ -23,9 +23,12 @@ jobs:
         run: |
           docker info
           mkdir -p $HOME/.docker
-          echo "$DOCKER_AUTH_CONFIG" > $HOME/.docker/config.json
+          echo "$DOCKER_AUTH_CONFIG" | base64 -d > $HOME/.docker/config.json
 
       - name: Build Docker Image
+        env:
+          GITEA_WORKSPACE: ${{ gitea.workspace }}
         run: |
-          docker build -f Dockerfile -t rtj.dev:0.0.1
+          cd "$GITEA_WORKSPACE"
+          docker build -f Dockerfile -t rtj.dev:0.0.1 .
           docker push rtj.dev:0.0.1
