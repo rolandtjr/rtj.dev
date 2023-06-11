@@ -24,7 +24,6 @@ jobs:
         env: 
           DOCKER_AUTH_CONFIG: ${{ secrets.DOCKER_AUTH_CONFIG }}
         run: |
-          docker info
           mkdir -p $HOME/.docker
           echo "$DOCKER_AUTH_CONFIG" | base64 -d > $HOME/.docker/config.json
       - name: Build Docker Image

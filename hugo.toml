@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'rtj.dev'
 paginate = 10
 theme = 'PaperMod'
-
 enableEmoji = true
 
 [params]
@@ -15,6 +14,7 @@ ShowPostNavLinks = true
 ShowRssButtonInSectionTermList = true
 comments = true
 ShowReadingTime = true
+
   [params.homeInfoParams]
     Title = "Roland Thomas Jr \U0001F525"
     Content = 'Welcome to my blog'
@@ -50,7 +50,6 @@ ShowReadingTime = true
   [[params.socialIcons]]
   name = 'Rss'
   url = 'index.xml'
-
 
 [languages.en]
 languageName = 'English'
