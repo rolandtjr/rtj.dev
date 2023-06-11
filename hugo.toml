@@ -77,7 +77,7 @@ url = "tags/"
 weight = 10
 
 [[languages.en.menu.main]]
-name = "Gitea"
+name = "git.rtj.dev"
 url = "https://git.rtj.dev"
 weight = 15
 
