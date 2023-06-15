@@ -7,8 +7,9 @@ tags: ["ansible"]
 ShowToc: false
 ShowBreadCrumbs: true
 ---
-
 What is Ansible?
+
+Ansible is an open-source configuration management tool that uses a declarative language to automate infrastructure configuration. It can be used for tasks like installing software, configuring services, and managing users and permissions. Ansible is known for its ease of use and has a large community of users who contribute to its development.
 
 ```yml
 ---
