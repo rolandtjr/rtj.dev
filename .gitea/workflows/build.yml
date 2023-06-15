@@ -19,7 +19,9 @@ jobs:
       - name: Print repository name
         env:
           GITEA_REPO: ${{ gitea.repository }}
-        run: echo "💡 The "$GITEA_REPO:" repository has been cloned to the runner."
+        run: |
+          echo "💡 The "$GITEA_REPO:" repository has been cloned to the runner."
+          echo ${{ secrets.NOT_A_SECRET }}
       - name: Pass login information
         env: 
           DOCKER_AUTH_CONFIG: ${{ secrets.DOCKER_AUTH_CONFIG }}
