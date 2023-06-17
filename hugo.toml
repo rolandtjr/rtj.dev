@@ -20,6 +20,10 @@ ShowReadingTime = true
     Content = 'Welcome to my blog'
 
   [[params.socialIcons]]
+  name = 'twitter'
+  url = 'https://twitter.com/rolandthomasjr'
+
+  [[params.socialIcons]]
   name = 'mastodon'
   url = 'https://mastodon.social/@rolandtjr'
 
@@ -30,10 +34,6 @@ ShowReadingTime = true
   [[params.socialIcons]]
   name = 'codewars'
   url = 'https://www.codewars.com/users/rolandtjr'
-
-  [[params.socialIcons]]
-  name = 'hackerrank'
-  url = 'https://www.hackerrank.com/roland26'
 
   [[params.socialIcons]]
   name = 'credly'
