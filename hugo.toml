@@ -36,6 +36,10 @@ ShowReadingTime = true
   url = 'https://www.codewars.com/users/rolandtjr'
 
   [[params.socialIcons]]
+  name = 'credly'
+  url = 'https://credly.com/users/roland-thomas-jr'
+
+  [[params.socialIcons]]
   name = 'goodreads'
   url = 'https://www.goodreads.com/rolandthomasjr'
 
