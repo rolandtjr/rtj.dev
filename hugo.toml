@@ -29,7 +29,7 @@ ShowReadingTime = true
 
   [[params.socialIcons]]
   name = 'youtube'
-  url = 'https://www.youtube.com/@DevSecLifewithRTJ'
+  url = 'https://www.youtube.com/@DevSecLife'
 
   [[params.socialIcons]]
   name = 'github'
