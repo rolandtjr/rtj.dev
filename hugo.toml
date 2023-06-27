@@ -16,8 +16,8 @@ comments = true
 ShowReadingTime = true
 
   [params.homeInfoParams]
-    Title = "Roland Thomas Jr \U0001F525"
-    Content = 'Welcome to my blog'
+  Title = "Roland Thomas Jr \U0001F525"
+  Content = 'Welcome to my blog'
 
   [[params.socialIcons]]
   name = 'twitter'
