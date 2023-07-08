@@ -48,10 +48,6 @@ ShowReadingTime = true
   url = 'https://www.goodreads.com/rolandthomasjr'
 
   [[params.socialIcons]]
-  name = 'tidal'
-  url = 'https://www.tidal.com'
-
-  [[params.socialIcons]]
   name = 'email'
   url = 'mailto:roland@rtj.dev'
 
