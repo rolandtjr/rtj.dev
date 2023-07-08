@@ -28,6 +28,10 @@ ShowReadingTime = true
   url = 'https://www.codewars.com/users/rolandtjr'
 
   [[params.socialIcons]]
+  name = 'leetcode'
+  url = 'https://leetcode.com/rolandtjr'
+
+  [[params.socialIcons]]
   name = 'credly'
   url = 'https://credly.com/users/roland-thomas-jr'
 
