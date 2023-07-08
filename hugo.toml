@@ -20,18 +20,6 @@ ShowReadingTime = true
   Content = 'Welcome to my blog'
 
   [[params.socialIcons]]
-  name = 'twitter'
-  url = 'https://twitter.com/rolandthomasjr'
-
-  [[params.socialIcons]]
-  name = 'mastodon'
-  url = 'https://mastodon.social/@rolandtjr'
-
-  [[params.socialIcons]]
-  name = 'youtube'
-  url = 'https://www.youtube.com/@DevSecLife'
-
-  [[params.socialIcons]]
   name = 'github'
   url = 'https://github.com/rolandtjr'
 
