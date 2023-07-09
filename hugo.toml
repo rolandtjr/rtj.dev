@@ -4,8 +4,10 @@ title = 'rtj.dev'
 paginate = 10
 theme = 'PaperMod'
 enableEmoji = true
+googleAnalytics = 'G-9BHN5G7N67'
 
 [params]
+env = 'production'
 author = 'Roland Thomas Jr'
 defaultTheme = 'auto'
 ShowShareButtons = true
@@ -14,6 +16,7 @@ ShowPostNavLinks = true
 ShowRssButtonInSectionTermList = true
 comments = true
 ShowReadingTime = true
+ShowToc = false
 
   [params.homeInfoParams]
   Title = "Roland Thomas Jr \U0001F525"
