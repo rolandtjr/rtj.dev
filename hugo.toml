@@ -18,8 +18,13 @@ comments = true
 ShowReadingTime = true
 ShowToc = false
 
-  [[params.assets]]
-  favicon = 'static/favicon'
+  [params.assets]
+  favicon = "/favicons/favicon.ico"
+  favicon16x16 =  "/favicons/favicon-16x16.png"
+  favicon32x32 =  "/favicons/favicon-32x32.png"
+  apple_touch_icon =  "/favicons/apple-touch-icon.png"
+  android_chrome_192x192 = "/favicons/android-chrome-192x192"
+  android_chrome_512x512 = "/favicons/android-chrome-512x512"
 
   [params.homeInfoParams]
   Title = "Roland Thomas Jr \U0001F525"
