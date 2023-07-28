@@ -18,6 +18,9 @@ comments = true
 ShowReadingTime = true
 ShowToc = false
 
+  [[params.assets]]
+  favicon = 'static/favicon'
+
   [params.homeInfoParams]
   Title = "Roland Thomas Jr \U0001F525"
   Content = 'Welcome to my blog'
