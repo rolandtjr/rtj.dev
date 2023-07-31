@@ -9,7 +9,8 @@ googleAnalytics = 'G-9BHN5G7N67'
 [params]
 env = 'production'
 author = 'Roland Thomas Jr'
-defaultTheme = 'auto'
+defaultTheme = 'dark'
+disableThemeToggle = false
 ShowShareButtons = true
 ShowCodeCopyButtons = true
 ShowPostNavLinks = true
@@ -24,12 +25,12 @@ ShowToc = false
   iconHeight = 40
 
   [params.assets]
-  favicon = "/favicons/favicon.ico"
-  favicon16x16 = "/favicons/favicon-16x16.png"
-  favicon32x32 = "/favicons/favicon-32x32.png"
-  apple_touch_icon = "/favicons/apple-touch-icon.png"
-  android_chrome_192x192 = "/favicons/android-chrome-192x192"
-  android_chrome_512x512 = "/favicons/android-chrome-512x512"
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon-16x16.png"
+  favicon32x32 = "/favicon-32x32.png"
+  apple_touch_icon = "/apple-touch-icon.png"
+  android_chrome_192x192 = "/android-chrome-192x192"
+  android_chrome_512x512 = "/android-chrome-512x512"
 
   [params.homeInfoParams]
   Title = "Roland Thomas Jr \U0001F525"
