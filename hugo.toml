@@ -22,13 +22,13 @@ ShowToc = false
   [params.label]
   icon = "/apple-touch-icon.png"
   text = " "
-  iconHeight = 40
+  iconHeight = 45
 
   [params.gitea]
   icon = "/gitea_rtj_logo.png"
   text = "git.rtj.dev"
   site = "https://git.rtj.dev"
-  iconHeight = 40
+  iconHeight = 35
 
   [params.assets]
   favicon = "/favicon.ico"
