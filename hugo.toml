@@ -21,7 +21,13 @@ ShowToc = false
 
   [params.label]
   icon = "/apple-touch-icon.png"
-  text = ".dev"
+  text = " "
+  iconHeight = 40
+
+  [params.gitea]
+  icon = "/gitea_rtj_logo.png"
+  text = "git.rtj.dev"
+  site = "https://git.rtj.dev"
   iconHeight = 40
 
   [params.assets]
@@ -87,11 +93,6 @@ weight = 10
 name = "Tags"
 url = "tags/"
 weight = 10
-
-[[languages.en.menu.main]]
-name = "git.rtj.dev"
-url = "https://git.rtj.dev"
-weight = 15
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
