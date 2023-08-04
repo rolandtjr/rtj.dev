@@ -1,6 +1,8 @@
 .dark {
     --theme: #070707;
     --entry: #1A1A1F;
+    --code-bg: #1A1A1F;
+    --hljs-bg: #1A1A1F;
 }
 
 .dark.list {

@@ -4,6 +4,7 @@ title = 'rtj.dev'
 paginate = 10
 theme = 'PaperMod'
 enableEmoji = true
+pygmentsUseClasses = true
 googleAnalytics = 'G-9BHN5G7N67'
 
 [params]
