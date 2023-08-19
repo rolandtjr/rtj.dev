@@ -48,6 +48,10 @@ ShowToc = false
   url = 'https://github.com/rolandtjr'
 
   [[params.socialIcons]]
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/roland-thomas-jr'
+
+  [[params.socialIcons]]
   name = 'codewars'
   url = 'https://www.codewars.com/users/rolandtjr'
 
