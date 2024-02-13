@@ -28,3 +28,6 @@ jobs:
           cd ${{ gitea.workspace }}
           docker build -f Dockerfile -t git.rtj.dev/roland/rtj.dev:0.0.1 .
           docker push git.rtj.dev/roland/rtj.dev:0.0.1
+      - name: Signal Restart
+        run: |
+          curl -X POST -H "Authorization: Bearer ${{ secrets.API_KEY }}" ${{ secrets.ENDPOINT }}
