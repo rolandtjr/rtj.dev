@@ -30,4 +30,4 @@ jobs:
           docker push git.rtj.dev/roland/rtj.dev:0.0.1
       - name: Signal Restart
         run: |
-          curl ${{OPTIONS}} "${{ secrets.API_KEY }}" ${{ secrets.ENDPOINT }}
+          curl ${{ secrets.OPTIONS }} "${{ secrets.API_KEY }}" ${{ secrets.ENDPOINT }}
