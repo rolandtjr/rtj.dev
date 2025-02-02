@@ -1,7 +1,7 @@
 baseURL = 'https://rtj.dev/'
 languageCode = 'en-us'
 title = 'rtj.dev'
-paginate = 10
+pagination.pagerSize = 10
 theme = 'PaperMod'
 enableEmoji = true
 pygmentsUseClasses = true
