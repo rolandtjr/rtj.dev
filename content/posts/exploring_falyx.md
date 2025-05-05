@@ -31,7 +31,13 @@ By defining your CLI structure in a configuration file (`falyx.yaml` or `falyx.t
 #### Example
 
 ```bash
-$ falyx
+❯ falyx
+                        🛠️ Config-Driven CLI
+
+            [C] Cleanup temp files
+            [Y] History              [H] Help   [Q] Exit
+
+>
 ```
 
 
