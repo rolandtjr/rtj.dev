@@ -40,7 +40,7 @@ ShowToc = false
 
   [params.homeInfoParams]
   Title = "Roland Thomas Jr \U0001F525"
-  Content = "I'm a systems-minded engineer with a focus on resilient tooling, DevSecOps automation, and CLI architecture.\n\nI build frameworks like [Falyx](https://github.com/rolandtjr/falyx) to turn complex workflows into reliable command-line experiences — in YAML or code.\n\n > “Automation should be composable, introspectable, and a pleasure to maintain."
+  Content = "I'm a systems-minded engineer with a focus on resilient tooling, DevSecOps automation, and CLI architecture.\n\nI build frameworks like [Falyx](https://github.com/rolandtjr/falyx) to turn complex workflows into reliable command-line experiences — in YAML or code.\n\n > “Automation should be composable, introspectable, and a pleasure to maintain.“"
 
   [[params.socialIcons]]
   name = 'github'
