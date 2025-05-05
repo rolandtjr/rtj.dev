@@ -31,7 +31,7 @@ By defining your CLI structure in a configuration file (`falyx.yaml` or `falyx.t
 #### Example
 
 ```bash
-❯ falyx
+$ falyx
                         🛠️ Config-Driven CLI
 
             [C] Cleanup temp files
@@ -170,7 +170,7 @@ And adds a starter `falyx.yaml` and `tasks.py`, for example:
   aliases: [update-dotfiles]
 ```
 
-**\~/.config/falyx/tasks.py**
+**\~/.config/falyx/dotfiles.py**
 
 ```python
 async def update():
